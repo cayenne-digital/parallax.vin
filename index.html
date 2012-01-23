@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Parallax Vin</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="parallax.vin.js"></script>
+    <script>
+      jQuery(function() { $('section').parallax(); });
+    </script>
+    <style>
+      section { height: 400px; }
+      .s1 { background: #AAA url('http://placehold.it/600x400/AAA/&text=Section+01') no-repeat fixed 50% 0 }
+      .s2 { background: #BBB url('http://placehold.it/600x400/BBB/&text=Section+02') no-repeat fixed 50% 0 }
+      .s3 { background: #CCC url('http://placehold.it/600x400/CCC/&text=Section+03') no-repeat fixed 50% 0 }
+      .s4 { background: #DDD url('http://placehold.it/600x400/DDD/&text=Section+04') no-repeat fixed 50% 0 }
+    </style>
+  </head>
+  <body>
+    <section class="s1"></section>
+    <section class="s2"></section>
+    <section class="s3"></section>
+    <section class="s4"></section>
+  </body>
+</html>
